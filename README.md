@@ -6,3 +6,5 @@ Sometimes feeds based on such a url don't contain all the videos.
 But everything works fine using a gdata url (like http://gdata.youtube.com/feeds/api/users/_???_/uploads).
 
 As I am lazy, this project gives a simple (very simple) function to create those urls based on a user id.
+
+(ugly) demo: [http://yveso.github.io/youtube-feed/](http://yveso.github.io/youtube-feed/ "here")
