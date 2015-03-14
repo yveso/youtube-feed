@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>youtube-feed</title>
+</head>
+<body>
+    <input type="text" id="userId" placeholder="Enter User Id">
+    <button id="btn">Create</button>
+    <p id="result"></p>
+    <script type="text/javascript" src="youTubeFeed.js"></script>
+    <script type="text/javascript">
+        document.getElementById('btn').addEventListener('click', function () {
+            var userId = document.getElementById('userId').value;
+            if (userId) {
+                document.getElementById('result').innerHTML = youTubeFeed(userId);
+            }
+        })
+    </script>
+</body>
+</html>
